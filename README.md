@@ -1,0 +1,2 @@
+# -Asynchronous-priority-based-queueing-mechanism-
+- Implemented a stackable file system  (under Prof. Erez Zadok) in Kernel on top of Wrapfs file system to detect malware patterns in files and quarantine them. - Maintained a database for bad patterns that is updated dynamically using IOCTL and blocked its access from other users. - Done consistent update of file’s status as good or bad whenever database changes and also blocked file operations except delete on quarantine files.
